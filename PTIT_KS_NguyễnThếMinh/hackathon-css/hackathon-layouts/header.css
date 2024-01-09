@@ -1,0 +1,93 @@
+.header {
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    height: 600px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-1 {
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.img-1 {
+    width: 25px;
+}
+.header-between {
+    width: 700px;
+    color: rgb(82, 82, 180);
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-right {
+    width: 80px;
+    height: 30px;
+    border: 1px solid rgb(137, 249, 234);
+    background-color: white;
+    color: rgb(137, 249, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-2 {
+    width: 100%;
+    height: 556px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+.img-2 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -100px;
+}
+
+.img-3{
+    position: relative;
+    left: -200px;
+    top: -6px;
+    width: 400px;
+    height: 560px;
+}
+.letter {
+    position: relative;
+    left: -250px;
+    transform: scale(1.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.size {
+    width: 270px;
+}
+.download {
+    width: 130px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
